@@ -3,7 +3,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Layout from './components/Layout'
-import CV from './components/CV'
+import CV from './components/CV/cv'
 import './App.scss'
 
 function App() {
@@ -12,10 +12,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cv" element={<CV />} />
-          <Route path="*" element={<div>Not found</div>} />
+          <Route path="*" element={<div>Resource Not found</div>} />
         </Route>
       </Routes>
     </>
