@@ -1,13 +1,14 @@
 import './index.scss';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 import LogoS from '../../assets/images/logo-s.png';
 import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faUser,faHome, faMailBulk } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faInstagram, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 
 const Sidebar =()=>(
-<div className='nav-bar'>
+<div className='nav-bar'>   
     <Link className='logo' to='/'>
     <img src={LogoS} alt='logo'/>
     <img className="sub-logo" src={LogoSubtitle} alt='altslogoban'/>
@@ -23,6 +24,29 @@ const Sidebar =()=>(
             <FontAwesomeIcon icon={faEnvelope} className="contact-link" color="#4d4d4d"/>
         </NavLink>
     </nav>
+    <ul>
+        <li>
+            <a target="_blank"
+             rel='noreferrer'
+              href=''>
+                <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
+                </a>
+        </li>
+        <li>
+            <a target="_blank"
+             rel='noreferrer'
+              href=''>
+                <FontAwesomeIcon icon={faInstagram} color="#4d4d4e"/>
+                </a>
+        </li>
+        <li>
+            <a target="_blank"
+             rel='noreferrer'
+              href=''>
+                <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
+                </a>
+        </li>
+    </ul>
 </div>
 )
 export default Sidebar;
