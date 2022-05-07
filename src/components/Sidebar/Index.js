@@ -3,15 +3,13 @@ import {Link, NavLink} from 'react-router-dom';
 import LogoS from '../../assets/images/logo-s.png';
 import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faUser,faHome, faMoneyBill, faFile} from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub, faInstagram, faLinkedin, faResearchgate} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faUser,faHome, faMoneyBill, faFile, faListCheck} from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 
 const Sidebar =()=>(
 <div className='nav-bar'>   
     <Link className='logo' to='/'>
-    <img src={LogoS} alt='logo'/>
-    <img className="sub-logo" src={LogoSubtitle} alt='SDaniel'/>
     </Link>
     <nav>
         <NavLink exact='true' activeclassname="active" to="/">
@@ -26,44 +24,34 @@ const Sidebar =()=>(
         <NavLink exact='true' activeclassname="active" to="/cv">
             <FontAwesomeIcon icon={faFile} className="cv-link" color="#4d4d4d"/>
         </NavLink>
-        <NavLink exact='true' activeclassname="active" to="/expense">
-            <FontAwesomeIcon icon={faMoneyBill} className="expense-tracker-link" color="#4d4d4d"/>
-        </NavLink>
     </nav>
     <ul>
         <li>
             <a target="_blank"
              rel='noreferrer'
-              href=''>
+              href='https://github.com/danielsantos2310'>
                 <FontAwesomeIcon icon={faGithub} color="#4d4d4e"/>
                 </a>
         </li>
         <li>
             <a target="_blank"
              rel='noreferrer'
-              href=''>
-                <FontAwesomeIcon icon={faInstagram} color="#4d4d4e"/>
+              href='https://daniel-expense-tracker.herokuapp.com/'>
+                <FontAwesomeIcon icon={faMoneyBill} color="#4d4d4e"/>
                 </a>
         </li>
         <li>
             <a target="_blank"
              rel='noreferrer'
-              href=''>
+              href='https://www.linkedin.com/company/kpmg-ireland/'>
                 <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"/>
                 </a>
         </li>
         <li>
             <a target="_blank"
              rel='noreferrer'
-              href=''>
-                <FontAwesomeIcon icon={faFacebook} color="#4d4d4e"/>
-                </a>
-        </li>
-        <li>
-            <a target="_blank"
-             rel='noreferrer'
-              href=''>
-                <FontAwesomeIcon icon={faResearchgate} color="#4d4d4e"/>
+              href='https://simplest-react-todo-app.herokuapp.com//'>
+                <FontAwesomeIcon icon={faListCheck} color="#4d4d4e"/>
                 </a>
         </li>
     </ul>

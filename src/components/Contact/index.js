@@ -21,10 +21,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'gmail',
-        'template_YeJhZkgb',
+        'service_eyrz1sx',
+        'template_6h0ma5t',
         form.current,
-        'your-token'
+        'fsxqf3mSrk4anlSC7'
       )
       .then(
         () => {
@@ -34,7 +34,8 @@ const Contact = () => {
         () => {
           alert('Failed to send the message, please try again')
         }
-      )
+      );
+      e.target.reset();
   }
 
   return (
@@ -94,7 +95,7 @@ const Contact = () => {
           <br />
           Ireland,
           <br />
-          Ireland <br />
+          <br />
           Wood Quay Dublin 8 D08 RF3F Poblacht na hÉireann <br />
           <br />
           <span>emailaddress@gmail.com</span>
