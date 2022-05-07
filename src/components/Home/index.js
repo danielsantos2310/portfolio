@@ -8,31 +8,26 @@ import './index.scss'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-
   const nameArray = ['D', 'A', 'N', 'I', 'E', 'L']
   const jobArray = [
+    'I',
+    '',
+    'a',
+    'm',
+    '',
+    'an',
+    '',
     'M',
-    'a',
-    'c',
-    'h',
-    'i',
-    'n',
-    'e',
-    ' ',
     'L',
-    'e',
-    'a',
-    'e',
-    'r',
-    'n',
-    'i',
-    'n',
-    'g',
-    ' ',
+    '',
     'E',
     'n',
     'g',
-    '.'
+    'i',
+    'n',
+    'e',
+    'e',
+    'r'
 
   ]
 
@@ -47,20 +42,9 @@ const Home = () => {
       <div className="container home-page">
         <div className="text-zone">
           <h1>
-            <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,</span>
+            <span className={`${letterClass} _12`}>Hi,</span>
             <br />
-            <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m</span>
-            <img
-              src={LogoTitle}
-              alt="Machine Learning Engineer Name, Full Stack Developer Name"
-            />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={nameArray}
-              idx={15}
-            />
+            <span className={`${letterClass} _13`}>My Name's Daniel.</span>
             <br />
             <AnimatedLetters
               letterClass={letterClass}
@@ -68,7 +52,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Bac End Developer / Machine Learning Expert</h2>
+          <h2>Backend Developer / Machine Learning Expert</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>

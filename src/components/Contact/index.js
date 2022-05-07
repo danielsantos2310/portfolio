@@ -90,20 +90,20 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Daniel Santos,
           <br />
-          Serbia,
+          Ireland,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Ireland <br />
+          Wood Quay Dublin 8 D08 RF3F Poblacht na hÉireann <br />
           <br />
-          <span>santosdaniel@gmail.com</span>
+          <span>emailaddress@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+              <Popup>Daniel Santos lives here, come visit me :)</Popup>
             </Marker>
           </MapContainer>
         </div>
