@@ -1,10 +1,11 @@
-import './index.scss';
+import React from 'react';
 import {Link, NavLink} from 'react-router-dom';
-import LogoS from '../../assets/images/logo-s.png';
 import LogoSubtitle from '../../assets/images/logo_sub.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faUser,faHome, faMoneyBill, faFile, faListCheck} from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import './index.scss';
+
 
 
 const Sidebar =()=>(
