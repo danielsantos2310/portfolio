@@ -7,8 +7,7 @@ import {
   faNode,
   faPython,
   faRProject,
-  faJava,
-  faJs,
+  faJava
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
