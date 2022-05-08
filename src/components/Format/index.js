@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar'
 import './index.scss'
 
-const Layout = () => {
+const Format = () => {
   return (
     <div className="App">
       <Sidebar />
@@ -21,4 +21,4 @@ const Layout = () => {
     </div>
   )
 }
-export default Layout
+export default Format
