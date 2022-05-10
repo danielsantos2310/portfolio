@@ -1,4 +1,6 @@
-# Welcome to my ePortfolio
+# Hello! Welcome to my ePortfolio.
+This is my interactive ePortfolio I created using Node Js, React JS, and MongoDB.
+Technologies used for this project are React Context API, Mongoose, Node Js Express server, and Fontaweseome. This project is live and deployed on Heroku.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
