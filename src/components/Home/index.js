@@ -1,36 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import Loader from 'react-loaders';
+import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import Loader from 'react-loaders'
+import AnimatedLetters from '../AnimatedLetters'
 
-const AnimatedLetters = ({ letterClass, strArray, idx }) => {
-  const [visibleLetters, setVisibleLetters] = useState([]);
-
-  useEffect(() => {
-    const timeoutIds = strArray.map((letter, index) => {
-      return setTimeout(() => {
-        setVisibleLetters((prevVisibleLetters) => [...prevVisibleLetters, letter]);
-      }, 200 * index); // Ajuste o tempo conforme necessário
-    });
-
-    // Limpeza dos timeouts para evitar vazamentos de memória
-    return () => {
-      timeoutIds.forEach((id) => clearTimeout(id));
-    };
-  }, [strArray]);
-
-  return (
-    <>
-      {visibleLetters.map((letter, index) => (
-        <span key={index} className={`${letterClass} _${idx + index}`}>
-          {letter}
-        </span>
-      ))}
-    </>
-  );
-};
+import './index.scss'
 
 const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate');
+  const [letterClass, setLetterClass] = useState('text-animate')
+  // const nameArray = ['D', 'A', 'N', 'I', 'E', 'L']
   const jobArray = [
     'I',
     '',
@@ -51,13 +28,14 @@ const Home = () => {
     'y',
     's',
     't'
-  ];
+];
+
 
   useEffect(() => {
     setTimeout(() => {
-      setLetterClass('text-animate-hover');
-    }, 4000);
-  }, []);
+      setLetterClass('text-animate-hover')
+    }, 4000)
+  }, [])
 
   return (
     <>
@@ -82,7 +60,7 @@ const Home = () => {
       </div>
       <Loader type="pacman" />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
