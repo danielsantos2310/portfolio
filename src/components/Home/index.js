@@ -17,17 +17,17 @@ const Home = () => {
     'a',
     '',
     'D',
-    'A',
-    'T',
-    'A',
+    'a',
+    't',
+    'a',
     '',
     'A',
-    'N',
-    'A',
-    'L',
-    'Y',
-    'S',
-    'T'
+    'n',
+    'a',
+    'l',
+    'y',
+    's',
+    't'
 ];
 
 
@@ -52,7 +52,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Backend Developer / Machine Learning Expert</h2>
+          <h2>Front End Developer / Machine Learning Enthusiastic</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
