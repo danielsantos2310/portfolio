@@ -35,17 +35,17 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious backend developer and machine learning engineer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+          Hello! I'm a dynamic Front-End Developer and Data Analyst with an insatiable passion for crafting engaging user experiences 
+          and extracting insights from data. I am actively seeking exciting opportunities within an established IT company, 
+          where I can leverage cutting-edge technologies and tackle diverse challenges.
+          My approach is marked by ambition and a genuine enthusiasm for Front-End development, constantly refining my skills in design and problem-solving.
           </p>
           <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops on design problem at a time.
+          As a Data Analyst, my work is driven by a natural curiosity, delving into data to uncover valuable insights and empower informed decision-making.
+          If I were to sum myself up in one sentence? A dedicated professional, a research enthusiast, and committed to devising innovative solutions!
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, passionate researcher, !!!
+          I'm eager to contribute to impactful projects and collaborate with teams on challenging endeavors. Let's create something extraordinary together! 🚀
           </p>
         </div>
 
