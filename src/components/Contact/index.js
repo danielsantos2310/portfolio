@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -102,12 +101,7 @@ const Contact = () => {
           <span>danieldecooo@gmail.com</span>
         </div>
         <div className="map-wrap">
-  <MapContainer center={[53.34999722222222, -6.349997222222222]} zoom={13}>
-  <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-  <Marker position={[53.34999722222222, -6.349997222222222]}>
-    <Popup>Daniel Santos lives here, come visit me :)</Popup>
-  </Marker>
-  </MapContainer>
+  
 
 </div>
 
