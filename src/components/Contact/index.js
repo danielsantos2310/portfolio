@@ -50,9 +50,15 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
-            don't hesitate to contact me using below form either.
+          "I am excited about exploring opportunities in software development and data analysis,
+           particularly in ambitious or large-scale projects but also open for new things. After completing my degree in Information Technology 
+           and earning Higher diloma in Data Science, I am ready to apply my knowledge and skills in a professional setting.
+           I am eager to embark on my first professional experience, contributing to challenging projects and collaborating within innovative teams.
+          If you have other requests or questions, please feel free to reach out to me using the form below. 
+          I am open to opportunities that allow me to grow and learn while contributing to project success. 
+          I look forward to embracing new challenges and making a positive impact on your team.
+
+
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
