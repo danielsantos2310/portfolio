@@ -35,12 +35,12 @@ const Sidebar = () => (
         </a>
       </li>
       <li>
-        <a target="_blank" rel='noreferrer' href='linkedin.com/in/daniel-santos-a07611132'>
+        <a target="_blank" rel='noreferrer' href='https://www.linkedin.com/in/daniel-santos-a07611132/'>
           <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
         </a>
       </li>
       <li>
-        <a target="_blank" rel='noreferrer' href='https://simplest-react-todo-app.herokuapp.com//'>
+        <a target="_blank" rel='noreferrer' href='https://simplest-react-todo-app.herokuapp.com/'>
           <FontAwesomeIcon icon={faListCheck} color="#4d4d4e" />
         </a>
       </li>
