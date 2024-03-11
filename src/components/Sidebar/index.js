@@ -20,6 +20,9 @@ const Sidebar = () => (
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4d" />
       </NavLink>
       <NavLink exact='true' activeClassName="active" className="cv-link" to="/cv">
+        <div className="cv-text">
+          <span>CV</span>
+        </div>
         <FontAwesomeIcon icon={faFile} color="#4d4d4d" />
       </NavLink>
     </nav>
