@@ -107,8 +107,7 @@ const Contact = () => {
   <Marker position={[53.34999722222222, -6.349997222222222]}>
     <Popup>Daniel Santos lives here, come visit me :)</Popup>
   </Marker>
-  <ZoomControl position="bottomright" />
-</MapContainer>
+  </MapContainer>
 
 </div>
 
